@@ -1,7 +1,7 @@
 {
   "name": "sales-vision",
   "version": "1.0.0",
-  "description": "sales dashboard",
+  "description": "A dashboard to monitor a company sales and customers. It is built using React, Redux, Material UI, Express and MongoDB",
   "main": "index.js",
   "type": "module",
   "scripts": {
