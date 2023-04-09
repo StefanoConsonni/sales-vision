@@ -105,6 +105,7 @@ const Sidebar = ({
   const theme = useTheme();
 
   useEffect(() => {
+    console.log("pathname.substring(1)", pathname.substring(1));
     setActive(pathname.substring(1));
   }, [pathname]);
 
@@ -132,7 +133,7 @@ const Sidebar = ({
               <FlexBetween color={theme.palette.secondary.main}>
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
-                    ECOMVISION
+                    SALES VISION
                   </Typography>
                 </Box>
                 {!isNonMobile && (
