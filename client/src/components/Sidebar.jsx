@@ -105,7 +105,6 @@ const Sidebar = ({
   const theme = useTheme();
 
   useEffect(() => {
-    console.log("pathname.substring(1)", pathname.substring(1));
     setActive(pathname.substring(1));
   }, [pathname]);
 
