@@ -23,7 +23,7 @@ import StatBox from "components/StatBox";
 
 const Dashboard = () => {
   const theme = useTheme();
-  const isNonMediumScreens = useMediaQuery("(min-width: 1200px)");
+  const isNonMediumScreens = useMediaQuery("(min-width: 1280px)");
   const { data, isLoading } = useGetDashboardQuery();
 
   const columns = [
