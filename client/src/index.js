@@ -5,7 +5,7 @@ import "./index.css";
 import { api } from "state/api";
 // Redux
 import { configureStore } from "@reduxjs/toolkit";
-import globalReducer from "state";
+import globalReducer from "state/globalSlice";
 import { Provider } from "react-redux";
 import { setupListeners } from "@reduxjs/toolkit/query";
 
