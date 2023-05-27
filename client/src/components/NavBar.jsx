@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { setMode } from "state";
+import { setMode } from "state/globalSlice";
 import {
   LightModeOutlined,
   DarkModeOutlined,
