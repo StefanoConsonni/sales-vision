@@ -43,6 +43,13 @@ app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
 app.use("/sales", salesRoutes);
 
+/* KEEP SERVER AWAKE ON RENDER.COM */
+const http = require("http");
+
+setInterval(() => {
+  http.get("https://sales-vision.vercel.app/dashboard");
+}, 14 * 60 * 1000); // every 14 minutes
+
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 9000;
 mongoose.set("strictQuery", false);
