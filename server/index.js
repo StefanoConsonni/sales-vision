@@ -47,7 +47,7 @@ app.use("/sales", salesRoutes);
 /* KEEP SERVER AWAKE ON RENDER.COM */
 setInterval(() => {
   http.get("https://sales-vision-backend.onrender.com/general/dashboard");
-}, 14 * 60 * 1000); // every 14 minutes
+}, 13 * 60 * 1000); // every 13 minutes
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 9000;
