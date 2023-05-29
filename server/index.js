@@ -5,6 +5,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
+import http from "http";
 import clientRoutes from "./routes/client.js";
 import generalRoutes from "./routes/general.js";
 import managementRoutes from "./routes/management.js";
@@ -44,10 +45,8 @@ app.use("/management", managementRoutes);
 app.use("/sales", salesRoutes);
 
 /* KEEP SERVER AWAKE ON RENDER.COM */
-const http = require("http");
-
 setInterval(() => {
-  http.get("https://sales-vision-backend.onrender.com/general/dashboard");
+  http.get("https://sales-vision.vercel.app/dashboard");
 }, 14 * 60 * 1000); // every 14 minutes
 
 /* MONGOOSE SETUP */
