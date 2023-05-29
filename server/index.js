@@ -46,7 +46,7 @@ app.use("/sales", salesRoutes);
 
 /* KEEP SERVER AWAKE ON RENDER.COM */
 setInterval(() => {
-  http.get("https://sales-vision.vercel.app/dashboard");
+  http.get("https://sales-vision-backend.onrender.com/general/dashboard");
 }, 14 * 60 * 1000); // every 14 minutes
 
 /* MONGOOSE SETUP */
