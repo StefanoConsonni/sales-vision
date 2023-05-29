@@ -47,7 +47,7 @@ app.use("/sales", salesRoutes);
 const http = require("http");
 
 setInterval(() => {
-  http.get("https://sales-vision.vercel.app/dashboard");
+  http.get("https://sales-vision-backend.onrender.com/general/dashboard");
 }, 14 * 60 * 1000); // every 14 minutes
 
 /* MONGOOSE SETUP */
