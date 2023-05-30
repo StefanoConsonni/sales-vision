@@ -5,7 +5,6 @@ import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
-import http from "http";
 import clientRoutes from "./routes/client.js";
 import generalRoutes from "./routes/general.js";
 import managementRoutes from "./routes/management.js";
@@ -43,11 +42,6 @@ app.use("/client", clientRoutes);
 app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
 app.use("/sales", salesRoutes);
-
-/* KEEP SERVER AWAKE ON RENDER.COM */
-setInterval(() => {
-  http.get("http://sales-vision-backend.onrender.com/management/admins");
-}, 13 * 60 * 1000); // every 13 minutes
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 9000;
