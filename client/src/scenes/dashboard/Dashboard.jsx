@@ -59,7 +59,7 @@ const Dashboard = () => {
       >
         {/* ROW 1 */}
         <StatBox
-          title="Total Customers"
+          title="Customers"
           value={data && data.totalCustomers}
           increase="+14%"
           description="Since last month"
