@@ -6,7 +6,6 @@ import {
   DarkModeOutlined,
   Menu as MenuIcon,
   Search,
-  SettingsOutlined,
   ArrowDropDownOutlined,
 } from "@mui/icons-material";
 import {
@@ -44,7 +43,10 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
       <Toolbar sx={{ justifyContent: "space-between" }}>
         {/* LEFT SIDE */}
         <FlexBetween>
-          <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
+          <IconButton
+            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+            sx={{ marginRight: "0.5rem" }}
+          >
             <MenuIcon />
           </IconButton>
           <FlexBetween
@@ -69,10 +71,6 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
               <LightModeOutlined sx={{ fontSize: "25px" }} />
             )}
           </IconButton>
-          <IconButton>
-            <SettingsOutlined sx={{ fontSize: "25px" }} />
-          </IconButton>
-
           <FlexBetween>
             <Button
               onClick={handleClick}
