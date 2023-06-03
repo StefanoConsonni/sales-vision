@@ -165,8 +165,8 @@ const Dashboard = () => {
             fontSize="0.8rem"
             sx={{ color: theme.palette.secondary[200] }}
           >
-            Breakdown of real states and information via category for revenue
-            made for this year and total sales.
+            Breakdown of the information via category for revenue made this year
+            and total sales.
           </Typography>
         </Box>
       </Box>
