@@ -102,8 +102,8 @@ export const themeSettings = (mode) => {
               main: mainColors.secondary[500],
             },
             background: {
-              default: mainColors.secondary[200],
-              alt: mainColors.secondary[100],
+              default: mainColors.secondary[100],
+              alt: mainColors.secondary[200],
             },
           }),
     },
