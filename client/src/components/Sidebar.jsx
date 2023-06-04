@@ -56,7 +56,7 @@ const navItems = [
     icon: <PublicOutlined />,
   },
   {
-    text: "Sales",
+    text: "Sales Charts",
     icon: null,
   },
   {
