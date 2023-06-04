@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { setMode } from "state/globalSlice";
 import {
@@ -19,7 +19,6 @@ import {
   Menu,
   MenuItem,
   useTheme,
-  useMediaQuery,
 } from "@mui/material";
 import FlexBetween from "components/FlexBetween";
 import profileImage from "assets/profile.jpeg";
@@ -27,18 +26,11 @@ import profileImage from "assets/profile.jpeg";
 const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
   const dispatch = useDispatch();
   const theme = useTheme();
-  const isLargeScreen = useMediaQuery("(min-width: 1000px)");
 
   const [anchorEl, setAnchorEl] = useState(null);
   const isOpen = Boolean(anchorEl);
   const handleClick = (event) => setAnchorEl(event.currentTarget);
   const handleClose = () => setAnchorEl(null);
-
-  useEffect(() => {
-    if (!isLargeScreen && isSidebarOpen) {
-      setIsSidebarOpen(!isSidebarOpen);
-    }
-  }, [isLargeScreen, isSidebarOpen, setIsSidebarOpen]);
 
   return (
     <AppBar
