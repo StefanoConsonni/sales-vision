@@ -2302,7 +2302,7 @@ export const dataProduct = [
     description:
       "Ideal for all your trails, the soft reservoir 1. 5L will keep you hydrated and energized on the go",
     category: "misc",
-    rating: 1.72,
+    rating: 4.72,
     supply: 190,
   },
   {
@@ -2331,7 +2331,7 @@ export const dataProduct = [
     price: 219.56,
     description: "100% handmade Leather shoes with a rubber sole",
     category: "shoes",
-    rating: 3.9,
+    rating: 4.9,
     supply: 212,
   },
   {
@@ -2350,7 +2350,7 @@ export const dataProduct = [
     description:
       "City adventures adidas shoes for men. A stretchy knit upper hugs the foot like a sock, and responsive BOOST in the midsole",
     category: "shoes",
-    rating: 1.5,
+    rating: 3.5,
     supply: 880,
   },
   {
@@ -2360,7 +2360,7 @@ export const dataProduct = [
     description:
       "A performance shirt built for outdoor activity, featuring moisture-wicking, quick-drying fabric",
     category: "clothing",
-    rating: 2.9,
+    rating: 4.9,
     supply: 1101,
   },
   {
@@ -2388,7 +2388,7 @@ export const dataProduct = [
     price: 11.7,
     description: "Unisex Soft Cup Speed, Blue, 150ml, color green",
     category: "accessories",
-    rating: 2.31,
+    rating: 4.31,
     supply: 734,
   },
   {
@@ -2443,7 +2443,7 @@ export const dataProduct = [
     price: 459.23,
     description: "Women's Peu Cami Fashion Sneaker with orange laces",
     category: "shoes",
-    rating: 3.25,
+    rating: 4.25,
     supply: 704,
   },
   {
@@ -2471,7 +2471,7 @@ export const dataProduct = [
     price: 934.46,
     description: "unisex adult Cross Visor-white Osfa Cap, White",
     category: "accessories",
-    rating: 2.64,
+    rating: 4.64,
     supply: 480,
   },
   {
@@ -2480,7 +2480,7 @@ export const dataProduct = [
     price: 867.33,
     description: "Women's Scarf,Ultramarine with purple details",
     category: "misc",
-    rating: 3.89,
+    rating: 5.0,
     supply: 1164,
   },
   {
@@ -2517,7 +2517,7 @@ export const dataProduct = [
     price: 786.02,
     description: "Men's Tilden Walk Oxford - Black",
     category: "shoes",
-    rating: 1.11,
+    rating: 5.0,
     supply: 858,
   },
   {
