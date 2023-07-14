@@ -26,7 +26,11 @@ An App that allows the user to monitor the company sales, transactions, statisti
    npm run dev
    ```
 
-8. Run the React app
+6. Run the React app
    ```shell
    npm start
    ```
+
+## Project Data Model
+
+![data model](./client/src/assets/sales-vision-data-model.png)
