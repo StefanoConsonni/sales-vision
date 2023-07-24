@@ -31,6 +31,6 @@ An App that allows the user to monitor the company sales, transactions, statisti
    npm start
    ```
 
-## Project Data Model
+## Entity Relationship Diagram (ERD)
 
 ![data model](./client/src/assets/sales-vision-data-model.png)
